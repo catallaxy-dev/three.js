@@ -71,7 +71,7 @@ if ( Object.assign === undefined ) {
 
 			if ( source !== undefined && source !== null ) {
 
-				for ( const nextKey in source ) {
+				for ( let nextKey in source ) {
 
 					if ( Object.prototype.hasOwnProperty.call( source, nextKey ) ) {
 
